@@ -1,3 +1,22 @@
+<!-- Вимоги до основної сторінки
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+:root{
+    --primary-text-color:
+    --title-text-color:#FFFFFF;
+    --text-color:#434455;
+    --main-background-color:#ffffff;
+    --section color:#2E2F42;
+    --footer color:#F4F4FD;
+
+}
+
+
 <!-- Хедер
 
 .logo{
@@ -7,28 +26,64 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
 }
 
-.logo-link{
+.link{
     text-decoration: none;
 }
 
-<!-- секція 1
-
-.section-banner{
-    background-color: #2e2f42;
+.logo-text{
+    color: #2e2f42;
 }
 
-.section-banner-title{
+.list{
+    list-style: none;
+}
+
+.menu-nav{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.MENU-nav .link:hover,
+.MENU-nav .link:focus {
+    color: #404bbf;
+}
+
+.contacts-nav{
+    font-style: normal;
+}
+
+.contacts-item{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+
+.contacts-item:hover,
+.contacts-item:focus{
+    color: #404bbf;
+}
+
+
+<!-- секція 1
+
+.section-hero{
+    background-color:var(--section color--);
+}
+
+.hero-title{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
 }
 
-.button-banner{
+.button{
 background-color: #4d5ae5;
 font-family: Roboto,sans-serif;
 font-weight: 500;
@@ -36,42 +91,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
+cursor: pointer
 }
 
-.button-banner: hover,
-.button-banner: focus {
+.button: hover,
+.button: focus {
     background-color:#404bbf;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body{
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-}
-
-.button-navigation{
-cursor: pointer;
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus{
-
-}
 
