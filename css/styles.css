@@ -3,22 +3,21 @@
     --primary-text-button-color: #ffffff;
     --paragraph-color: #434455;
     --second-logo-section-color: #2E2F42;
-    --footer-text-color: #F4F4FD;
+    -footer-text-color: #F4F4FD;
     --background-color: #ffffff;
     --dark-bg:#2E2F42;
-    --light-bg:#f4f4fd;
     --first-logo-button-color:#4D5AE5;
-    --color-hover-focus:#404bbf;
+    -color-hover:#404bbf;
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    color:var(--paragraph-color);
     background-color:var(--background-color);
 }
 
-<!-- Хедер
-.logo{
+< !-- Header section -->
+.logo-header{
 font-family: Raleway, sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -28,29 +27,33 @@ text-transform: uppercase;
 color: var(--first-logo-button-color);
 }
 
-.link{
-    text-decoration: none;
-}
-
 .logo-text{
     color:var(--second-logo-section-color);
 }
 
-.list{
+.logo-header, .link{
+text-decoration: none;
+}
+
+.menu .list{
     list-style: none;
 }
 
-.menu-nav{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--second-logo-section-color);
+.menu-item{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--second-logo-section-color);
 }
 
-.menu-nav .link:hover,
-.menu-nav .link:focus {
-    color:var(--color-hover-focus);
+.menu-item, .link{
+    text-decoration: none;
+}
+
+.menu-item:focus,
+.menu-item:hover {   
+    color: #404bbf;
 }
 
 .contacts-nav{
@@ -64,25 +67,14 @@ color: var(--first-logo-button-color);
     color:var(--paragraph-color);
 }
 
-.contacts-item:hover,
-.contacts-item:focus{
-    color: ;
+.contact-item:hover,
+.contact-item:focus{
+    color:#404bbf ;   
 }
 
 
 <!-- секція 1
 
-.hero{
-    background-color:var(--second-logo-section-color);
-}
-
-.hero-title{
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
 
 .button{
 background-color:var(--first-logo-button-color);
@@ -97,7 +89,29 @@ cursor: pointer
 
 .button: hover,
 .button: focus {
-    background-color:#404bbf;
+    background-color:;
 }
 
+< !-- Footer section-->
+.footer{
+    background-color:var(--second-logo-section-color) ;
+}
+
+.logo-footer{
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#F4F4FD
+}
+
+.logo-footer, .link{
+    text-decoration: none;
+}
+
+.logo-footer-text{
+    color:#4D5AE5;
+}
 
