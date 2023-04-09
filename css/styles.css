@@ -1,3 +1,5 @@
+< !-- Index-->
+
 <!-- Вимоги до основної сторінки
 :root {
     --primary-text-button-color: #ffffff;
@@ -89,7 +91,7 @@ cursor: pointer
 
 .button: hover,
 .button: focus {
-    background-color:;
+    background-color:
 }
 
 < !-- Footer section-->
@@ -115,3 +117,40 @@ cursor: pointer
     color:#4D5AE5;
 }
 
+< !-- Portfolio-->
+
+.button-list{
+    list-style: none;
+}
+
+.button-nav{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:#F4F4FD;
+    background-color:#4D5AE5;
+    cursor: pointer;
+}
+
+.button-nav:hover,
+.button-nav:focus{
+    color: #fff;
+    background-color: #404BBF;
+}
+
+.gallery-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--second-logo-section-color);
+}
+
+.gallery-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--paragraph-color);
+}
