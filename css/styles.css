@@ -7,7 +7,7 @@
     --second-logo-section-color: #2E2F42;
     -footer-text-color: #F4F4FD;
     --background-color: #ffffff;
-    --dark-bg:#2E2F42;
+    -dark-bg:#2E2F42;
     --first-logo-button-color:#4D5AE5;
     -color-hover:#404bbf;
 }
@@ -75,11 +75,23 @@ color: var(--second-logo-section-color);
 }
 
 
-<!-- секція 1
+< !-- Hero section-->
+
+.hero{
+    background-color:#2e2f42;
+}
+
+.hero-title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
 
 
 .button{
-background-color:var(--first-logo-button-color);
+background-color:#4D5AE5;
 font-family: Roboto,sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -89,9 +101,28 @@ color: #ffffff;
 cursor: pointer
 }
 
-.button: hover,
-.button: focus {
-    background-color:
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+
+< !-- Feature section -->
+
+.features-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--second-logo-section-color); 
+}
+
+.features-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--paragraph-color);
+
+}
+
 }
 
 < !-- Footer section-->
