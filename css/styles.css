@@ -7,9 +7,8 @@
     --main-text-color:#2E2F42;
     --paragraph-text-color:#434455;
     --title-color:#ffffff;
-    --footer-text-color:#F4F4FD;
-    --color-hover:#404bbf;
-    --background-color:#2e2f42;
+    -footer-text-color:#F4F4FD;
+    --color-hover:#404bbf;   
 }
 
 body {
@@ -76,7 +75,7 @@ color:var(--main-text-color);
 
 
 .hero-nav{
-    background-color:var(--background-color);
+    background-color:#2e2f42;
 }
 
 .hero-title{
@@ -89,17 +88,17 @@ color:var(--main-text-color);
 
 .button{
 background-color:#4D5AE5;
-font-family: Roboto,sans-serif;
+font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height:1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
-cursor: pointer
+cursor:pointer;
 }
 
 .button:hover,
-.button:focus {
+.button:focus{
     background-color: #404BBF;
 
 < !-- Feature section -->
@@ -109,14 +108,14 @@ cursor: pointer
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--second-logo-section-color); 
+    color: var(--main-text-color);
 }
 
 .features-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--paragraph-color);
+    color:var(--paragraph-text-color);
 }
 
 < !-- Doing section -->
@@ -127,7 +126,7 @@ cursor: pointer
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color:var(--second-logo-section-color);
+    color:var(--main-text-color);
 }
 
 
@@ -143,7 +142,7 @@ cursor: pointer
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color:var(--main-text-color);
 }
 
 .team-card{
@@ -153,8 +152,8 @@ cursor: pointer
 
 
 < !-- Footer section-->
-.footer{
-    background-color:var(--second-logo-section-color) ;
+.footer-nav{
+    background-color: #2e2f42;
 }
 
 .logo-footer{
@@ -164,15 +163,15 @@ cursor: pointer
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#F4F4FD
+    color:var(--logo-text);
 }
 
 .logo-footer, .link{
     text-decoration: none;
 }
 
-.logo-footer-text{
-    color:#4D5AE5;
+.logo-footer-word{
+    color:#F4F4FD;
 }
 
 < !-- Portfolio-->
