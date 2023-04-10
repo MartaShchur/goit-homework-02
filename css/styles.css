@@ -2,20 +2,20 @@
 
 <!-- Вимоги до основної сторінки
 :root {
-    --primary-text-button-color: #ffffff;
-    --paragraph-color: #434455;
-    --second-logo-section-color: #2E2F42;
-    -footer-text-color: #F4F4FD;
-    --background-color: #ffffff;
-    -dark-bg:#2E2F42;
-    --first-logo-button-color:#4D5AE5;
-    -color-hover:#404bbf;
+    <!-- Text -->
+    --logo-text:#4d5ae5;
+    --main-text-color:#2E2F42;
+    --paragraph-text-color:#434455;
+    --title-color:#ffffff;
+    --footer-text-color:#F4F4FD;
+    --color-hover:#404bbf;
+    --background-color:#2e2f42;
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    color:var(--paragraph-color);
-    background-color:var(--background-color);
+    color:#434455;
+    background-color:var(--title-color);
 }
 
 < !-- Header section -->
@@ -26,11 +26,11 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--first-logo-button-color);
+color:var(--logo-text);
 }
 
 .logo-text{
-    color:var(--second-logo-section-color);
+    color:var(--main-text-color);
 }
 
 .logo-header, .link{
@@ -46,7 +46,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--second-logo-section-color);
+color:var(--main-text-color);
 }
 
 .menu-item, .link{
@@ -55,7 +55,7 @@ color: var(--second-logo-section-color);
 
 .menu-item:focus,
 .menu-item:hover {   
-    color: #404bbf;
+    color:#404BBF;
 }
 
 .contacts-nav{
@@ -66,7 +66,7 @@ color: var(--second-logo-section-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--paragraph-color);
+    color:var(--paragraph-text-color);
 }
 
 .contact-item:hover,
@@ -77,18 +77,17 @@ color: var(--second-logo-section-color);
 
 < !-- Hero section-->
 
-.hero{
-    background-color:#2e2f42;
+.hero-nav{
+    background-color:var(--background-color);
 }
 
 .hero-title{
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
+    text-align:center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color:#ffffff;
 }
-
 
 .button{
 background-color:#4D5AE5;
@@ -120,10 +119,40 @@ cursor: pointer
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--paragraph-color);
-
 }
 
+< !-- Doing section -->
+
+.work-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--second-logo-section-color);
 }
+
+
+< !-- Team section -->
+
+.team-nav{
+    background-color: #F4F4FD;
+}
+
+.team-nav-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-card{
+    background-color: #FFFFFF;
+}
+
+
 
 < !-- Footer section-->
 .footer{
