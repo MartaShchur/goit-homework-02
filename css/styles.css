@@ -1,31 +1,33 @@
-< !-- Index-->
 
-<!-- Вимоги до основної сторінки
+ /*Index*/
+
 :root {
     <!-- Text -->
-    --logo-text:#4d5ae5;
+    --logo-text:(#4d5ae5);
     --main-text-color:#2E2F42;
     --paragraph-text-color:#434455;
     --title-color:#ffffff;
     -footer-text-color:#F4F4FD;
-    --color-hover:#404bbf;   
+    --color-hover:#404bbf; 
+    --bg-body:#ffffff;
+    bg-hero:    
 }
 
 body {
     font-family: "Roboto", sans-serif;
     color:#434455;
-    background-color:var(--title-color);
+    background-color:var(--bg-body);
 }
 
-< !-- Header section -->
+
 .logo-header{
-font-family: Raleway, sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color:var(--logo-text);
+    font-family: Raleway,sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-text);
 }
 
 .logo-text{
