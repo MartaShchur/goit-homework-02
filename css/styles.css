@@ -1,16 +1,14 @@
 
- /*Index*/
-
 :root {
-    <!-- Text -->
-    --logo-text:(#4d5ae5);
+    --logo-color:#4d5ae5 ;
     --main-text-color:#2E2F42;
     --paragraph-text-color:#434455;
     --title-color:#ffffff;
-    -footer-text-color:#F4F4FD;
+    --footer-text-color:#F4F4FD;
     --color-hover:#404bbf; 
     --bg-body:#ffffff;
-    bg-hero:    
+
+    --bg-hero-footer: #2e2f42;
 }
 
 body {
@@ -19,15 +17,14 @@ body {
     background-color:var(--bg-body);
 }
 
-
 .logo-header{
-    font-family: Raleway,sans-serif;
+    font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--logo-text);
+    color:var(--logo-color);
 }
 
 .logo-text{
@@ -75,9 +72,8 @@ color:var(--main-text-color);
     color:#404bbf ;   
 }
 
-
-.hero-nav{
-    background-color:#2e2f42;
+.hero-page{
+    background-color:var(--bg-hero-footer);
 }
 
 .hero-title{
@@ -88,10 +84,10 @@ color:var(--main-text-color);
     color:#ffffff;
 }
 
-.button{
+.modal-btn{
 background-color:#4D5AE5;
-font-family: Roboto, sans-serif;
-font-weight: 500;
+font-family:'Roboto', sans-serif;
+font-weight:500;
 font-size: 16px;
 line-height:1.5;
 letter-spacing: 0.04em;
@@ -102,94 +98,75 @@ cursor:pointer;
 .button:hover,
 .button:focus{
     background-color: #404BBF;
-
-< !-- Feature section -->
+}
 
 .features-title{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main-text-color);
-}
-
-.features-text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--paragraph-text-color);
-}
-
-< !-- Doing section -->
-
-.work-title{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+    font-weight:500;
+    font-size:20px;
+    line-height:1.2;
+    letter-spacing:0.02em;
     color:var(--main-text-color);
 }
 
+.features-text{
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color:var(--paragraph-text-color);
+}
 
-< !-- Team section -->
+.work-title{
+    font-size:36px;
+    line-height:1.11;
+    text-align:center;
+    letter-spacing:0.02em;
+    text-transform:capitalize;
+    color:var(--main-text-color);
+}
 
 .team-nav{
     background-color: #F4F4FD;
 }
 
-.team-nav-title{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color:var(--main-text-color);
-}
 
 .team-card{
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
 }
 
-
-
-< !-- Footer section-->
-.footer-nav{
-    background-color: #2e2f42;
+.footer-page{
+    background-color:var(--bg-hero-footer);
 }
 
-.logo-footer{
-    font-family: Raleway, sans-serif;
+.link{
+    text-decoration: none;
+}
+
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:var(--logo-text);
-}
-
-.logo-footer, .link{
-    text-decoration: none;
+    color: var(--logo-color);
 }
 
 .logo-footer-word{
-    color:#F4F4FD;
+    color:var(--footer-text-color);
 }
-
-< !-- Portfolio-->
 
 .button-list{
     list-style: none;
 }
 
 .button-nav{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color:#F4F4FD;
-    background-color:#4D5AE5;
+    color:var(--logo-color);
+    background-color:var(--footer-text-color);
     cursor: pointer;
 }
 
@@ -197,19 +174,4 @@ cursor:pointer;
 .button-nav:focus{
     color: #fff;
     background-color: #404BBF;
-}
-
-.gallery-title{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--second-logo-section-color);
-}
-
-.gallery-text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--paragraph-color);
 }
