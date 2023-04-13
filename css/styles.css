@@ -15,9 +15,11 @@ body {
     font-family: "Roboto", sans-serif;
     color:#434455;
     background-color:var(--bg-body);
+    font-family: inherit;
 }
 
-.logo-header{
+/* HEADER */
+.header-logo{
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -27,11 +29,11 @@ body {
     color:var(--logo-color);
 }
 
-.logo-text{
+.studio-logo{
     color:var(--main-text-color);
 }
 
-.logo-header, .link{
+.header-logo, .link{
 text-decoration: none;
 }
 
@@ -39,6 +41,7 @@ text-decoration: none;
     list-style: none;
 }
 
+/* MENU */
 .menu-item{
 font-weight: 500;
 font-size: 16px;
@@ -56,6 +59,7 @@ color:var(--main-text-color);
     color:#404BBF;
 }
 
+/* CONTACTS */
 .contacts-nav{
     font-style: normal;
 }
@@ -72,6 +76,7 @@ color:var(--main-text-color);
     color:#404bbf ;   
 }
 
+/* HERO SECTION */
 .hero-page{
     background-color:var(--bg-hero-footer);
 }
@@ -100,6 +105,7 @@ cursor:pointer;
     background-color: #404BBF;
 }
 
+/* FEATURE SECTION */
 .features-title{
     font-weight:500;
     font-size:20px;
@@ -115,6 +121,7 @@ cursor:pointer;
     color:var(--paragraph-text-color);
 }
 
+/* DOING SECTION */
 .work-title{
     font-size:36px;
     line-height:1.11;
@@ -124,6 +131,7 @@ cursor:pointer;
     color:var(--main-text-color);
 }
 
+/* TEAM SECTION */
 .team-nav{
     background-color: #F4F4FD;
 }
@@ -133,7 +141,8 @@ cursor:pointer;
     background-color:#FFFFFF;
 }
 
-.footer-page{
+/* FOOTER */
+.footer{
     background-color:var(--bg-hero-footer);
 }
 
@@ -151,7 +160,7 @@ cursor:pointer;
     color: var(--logo-color);
 }
 
-.logo-footer-word{
+.footer-logo-word{
     color:var(--footer-text-color);
 }
 
@@ -163,6 +172,7 @@ cursor:pointer;
     color: var(--footer-text-color);
 }
 
+/* PORTFOLIO  */
 .gallery-title{
     font-weight: 500;
     font-size: 20px;
